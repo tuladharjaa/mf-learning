@@ -21,7 +21,7 @@
     },
     "globalName": "learning",
     "pluginVersion": "0.7.0",
-    "getPublicPath": "https://rigohr-learning.netlify.app"
+    "getPublicPath": "https://raw.githubusercontent.com/tuladharjaa/mf-learning/refs/heads/main/android/"
   },
   "shared": [
     {
