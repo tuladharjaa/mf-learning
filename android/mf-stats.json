@@ -233,33 +233,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_reduxjs_toolkit_dist_cjs_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_reduxjs_toolkit_dist_cjs_index_js.chunk.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^0.0.1",
-      "shareScope": "default",
-      "name": "@rigohr-module/auth",
-      "version": "0.0.1",
-      "eager": false,
-      "id": "learning:@rigohr-module/auth",
-      "assets": {
-        "js": {
-          "async": [
-            "modules_auth_node_modules_react_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_reduxjs_toolkit_dist_cjs_index_js.chunk.bundle"
-          ],
-          "sync": [
-            "modules_auth_src_index_tsx.chunk.bundle"
+            "vendors-node_modules_reduxjs_toolkit_dist_cjs_index_js.chunk.bundle"
           ]
         },
         "css": {
@@ -887,8 +861,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react_index_js.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle"
+            "node_modules_react_index_js.chunk.bundle"
           ]
         },
         "css": {
@@ -924,7 +897,6 @@
             "vendors-node_modules_react-navigation_native-stack_lib_commonjs_index_js.chunk.bundle",
             "vendors-node_modules_reduxjs_toolkit_dist_cjs_index_js.chunk.bundle",
             "vendors-node_modules_react-redux_dist_react-redux_legacy-esm_js.chunk.bundle",
-            "modules_auth_src_index_tsx.chunk.bundle",
             "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle",
             "node_modules_react-native-safe-area-context_src_index_tsx-_7a171.chunk.bundle",
             "vendors-node_modules_react-navigation_elements_lib_commonjs_index_js.chunk.bundle",
@@ -932,8 +904,6 @@
             "vendors-node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
             "node_modules_react-native_Libraries_Utilities_Platform_android_js-node_modules_invariant_brow-b291880.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_reduxjs_toolkit_dist_cjs_index_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_getNativeComponentAttributes_js.chunk.bundle",
             "node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js-_d2991.chunk.bundle",
             "node_modules_react-native_Libraries_NativeComponent_ViewConfigIgnore_js-node_modules_invarian-a9f2b2.chunk.bundle",
