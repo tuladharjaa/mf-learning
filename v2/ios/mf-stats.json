@@ -21,7 +21,7 @@
     },
     "globalName": "learning",
     "pluginVersion": "0.7.0",
-    "getPublicPath": "function() {return \"https://raw.githubusercontent.com/tuladharjaa/mf-learning/refs/heads/main/v1/ios/\"}"
+    "getPublicPath": "function() {return \"https://raw.githubusercontent.com/tuladharjaa/mf-learning/refs/heads/main/v2/ios/\"}"
   },
   "shared": [
     {
