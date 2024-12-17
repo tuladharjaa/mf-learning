@@ -26,16 +26,50 @@
   },
   "shared": [
     {
+      "id": "learning:@react-native-async-storage/async-storage",
+      "name": "@react-native-async-storage/async-storage",
+      "version": "2.1.0",
+      "singleton": true,
+      "requiredVersion": "^2.1.0",
+      "assets": {
+        "js": {
+          "async": [
+            "vendors-packages_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegi-58d039.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-packag-437f4a.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_Alert_Alert_js-packages_auth_node_m-73368f.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_index_js.chunk.bundle",
+            "packages_auth_node_modules_react_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInte-83cc1b.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInit-fb7f56.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
+          ],
+          "sync": [
+            "packages_auth_node_modules_react-native-async-storage_async-storage_src_index_ts-_c1090.chunk.bundle",
+            "packages_auth_node_modules_react-native-async-storage_async-storage_src_index_ts-_c1091.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "learning:@react-native/assets-registry/path-support",
       "name": "@react-native/assets-registry/path-support",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [],
           "sync": [
             "node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle"
+            "packages_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle"
           ]
         },
         "css": {
@@ -47,14 +81,14 @@
     {
       "id": "learning:@react-native/assets-registry/registry",
       "name": "@react-native/assets-registry/registry",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [],
           "sync": [
             "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle"
+            "packages_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle"
           ]
         },
         "css": {
@@ -66,14 +100,14 @@
     {
       "id": "learning:@react-native/normalize-colors",
       "name": "@react-native/normalize-colors",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [],
           "sync": [
             "node_modules_react-native_normalize-colors_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle"
+            "packages_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle"
           ]
         },
         "css": {
@@ -85,30 +119,30 @@
     {
       "id": "learning:@react-native/virtualized-lists",
       "name": "@react-native/virtualized-lists",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
             "node_modules_react_index_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
             "node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-modules-05a9fc.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_Alert_Alert_js-modules_auth_node_mod-36ee46.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_index_js.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInter-e4d65b.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateIniti-082319.chunk.bundle"
+            "vendors-packages_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegi-58d039.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-packag-437f4a.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_Alert_Alert_js-packages_auth_node_m-73368f.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_index_js.chunk.bundle",
+            "packages_auth_node_modules_react_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInte-83cc1b.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInit-fb7f56.chunk.bundle"
           ],
           "sync": [
             "vendors-node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle"
+            "vendors-packages_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle"
           ]
         },
         "css": {
@@ -120,9 +154,9 @@
     {
       "id": "learning:@react-navigation/elements",
       "name": "@react-navigation/elements",
-      "version": "2.2.4",
+      "version": "2.2.5",
       "singleton": true,
-      "requiredVersion": "^2.2.4",
+      "requiredVersion": "^2.2.5",
       "assets": {
         "js": {
           "async": [
@@ -159,9 +193,9 @@
     {
       "id": "learning:@react-navigation/native-stack",
       "name": "@react-navigation/native-stack",
-      "version": "7.1.14",
+      "version": "7.2.0",
       "singleton": true,
-      "requiredVersion": "^7.1.14",
+      "requiredVersion": "^7.2.0",
       "assets": {
         "js": {
           "async": [
@@ -205,9 +239,9 @@
     {
       "id": "learning:@react-navigation/native",
       "name": "@react-navigation/native",
-      "version": "7.0.13",
+      "version": "7.0.14",
       "singleton": true,
-      "requiredVersion": "^7.0.13",
+      "requiredVersion": "^7.0.14",
       "assets": {
         "js": {
           "async": [
@@ -226,15 +260,15 @@
     {
       "id": "learning:@reduxjs/toolkit",
       "name": "@reduxjs/toolkit",
-      "version": "2.4.0",
+      "version": "2.5.0",
       "singleton": true,
-      "requiredVersion": "^2.4.0",
+      "requiredVersion": "^2.5.0",
       "assets": {
         "js": {
           "async": [],
           "sync": [
             "vendors-node_modules_reduxjs_toolkit_dist_cjs_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_reduxjs_toolkit_dist_cjs_index_js.chunk.bundle"
+            "vendors-packages_auth_node_modules_reduxjs_toolkit_dist_cjs_index_js.chunk.bundle"
           ]
         },
         "css": {
@@ -244,31 +278,32 @@
       }
     },
     {
-      "id": "learning:@rigohr-module/auth",
-      "name": "@rigohr-module/auth",
+      "id": "learning:@rigohr/auth",
+      "name": "@rigohr/auth",
       "version": "0.0.1",
       "singleton": true,
       "requiredVersion": "^0.0.1",
       "assets": {
         "js": {
           "async": [
-            "vendors-modules_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-modules-05a9fc.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_Alert_Alert_js-modules_auth_node_mod-36ee46.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_index_js.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_reduxjs_toolkit_dist_cjs_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInter-e4d65b.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateIniti-082319.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
+            "vendors-packages_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegi-58d039.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-packag-437f4a.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_Alert_Alert_js-packages_auth_node_m-73368f.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_index_js.chunk.bundle",
+            "packages_auth_node_modules_react_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native-async-storage_async-storage_src_index_ts-_c1091.chunk.bundle",
+            "vendors-packages_auth_node_modules_reduxjs_toolkit_dist_cjs_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInte-83cc1b.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInit-fb7f56.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
           ],
           "sync": [
-            "modules_auth_src_index_tsx.chunk.bundle"
+            "packages_auth_src_index_tsx.chunk.bundle"
           ]
         },
         "css": {
@@ -280,9 +315,9 @@
     {
       "id": "learning:react-native-safe-area-context",
       "name": "react-native-safe-area-context",
-      "version": "4.14.1",
+      "version": "5.0.0",
       "singleton": true,
-      "requiredVersion": "^4.14.1",
+      "requiredVersion": "^5.0.0",
       "assets": {
         "js": {
           "async": [
@@ -357,8 +392,8 @@
     {
       "id": "learning:react-native/Libraries/Components/View/ReactNativeStyleAttributes",
       "name": "react-native/Libraries/Components/View/ReactNativeStyleAttributes",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
@@ -394,8 +429,8 @@
     {
       "id": "learning:react-native/Libraries/Image/AssetRegistry",
       "name": "react-native/Libraries/Image/AssetRegistry",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
@@ -414,8 +449,8 @@
     {
       "id": "learning:react-native/Libraries/NativeComponent/NativeComponentRegistry",
       "name": "react-native/Libraries/NativeComponent/NativeComponentRegistry",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
@@ -436,25 +471,25 @@
             "node_modules_react-native_Libraries_Utilities_Platform_ios_js-node_modules_invariant_browser_-c13b524.chunk.bundle",
             "node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInter-e4d65b.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_Alert_Alert_js-modules_auth_node_mod-36ee46.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateIniti-082319.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-modules-05a9fc.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
+            "packages_auth_node_modules_react_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInte-83cc1b.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_Alert_Alert_js-packages_auth_node_m-73368f.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInit-fb7f56.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-packag-437f4a.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
           ],
           "sync": [
             "node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js-_d2990.chunk.bundle",
             "node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js-_d2991.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInterface_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle"
+            "vendors-packages_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegi-58d039.chunk.bundle"
           ]
         },
         "css": {
@@ -466,8 +501,8 @@
     {
       "id": "learning:react-native/Libraries/NativeComponent/ViewConfigIgnore",
       "name": "react-native/Libraries/NativeComponent/ViewConfigIgnore",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
@@ -488,18 +523,18 @@
             "node_modules_react-native_Libraries_Utilities_Platform_ios_js-node_modules_invariant_browser_-c13b524.chunk.bundle",
             "node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInter-e4d65b.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_Alert_Alert_js-modules_auth_node_mod-36ee46.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateIniti-082319.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-modules-05a9fc.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
+            "packages_auth_node_modules_react_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInte-83cc1b.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_Alert_Alert_js-packages_auth_node_m-73368f.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInit-fb7f56.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-packag-437f4a.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
           ],
           "sync": [
             "node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js-_d2990.chunk.bundle",
@@ -507,8 +542,8 @@
             "node_modules_react-native_Libraries_NativeComponent_ViewConfigIgnore_js-node_modules_invarian-a9f2b2.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInterface_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_Libraries_NativeComponent_ViewConfigIgnore_js-modules_-db7e06.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle"
+            "packages_auth_node_modules_react-native_Libraries_NativeComponent_ViewConfigIgnore_js-package-b2e970.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegi-58d039.chunk.bundle"
           ]
         },
         "css": {
@@ -520,8 +555,8 @@
     {
       "id": "learning:react-native/Libraries/ReactNative/AppContainer",
       "name": "react-native/Libraries/ReactNative/AppContainer",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
@@ -555,8 +590,8 @@
     {
       "id": "learning:react-native/Libraries/ReactNative/RendererProxy",
       "name": "react-native/Libraries/ReactNative/RendererProxy",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
@@ -578,21 +613,21 @@
             "node_modules_react-native_Libraries_NativeComponent_ViewConfigIgnore_js-node_modules_invarian-a9f2b2.chunk.bundle",
             "node_modules_react-native_Libraries_Utilities_Platform_ios_js-node_modules_invariant_browser_-c13b524.chunk.bundle",
             "node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInter-e4d65b.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_Alert_Alert_js-modules_auth_node_mod-36ee46.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateIniti-082319.chunk.bundle",
-            "modules_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
+            "packages_auth_node_modules_react_index_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegi-58d039.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInte-83cc1b.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_Alert_Alert_js-packages_auth_node_m-73368f.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInit-fb7f56.chunk.bundle",
+            "packages_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
           ],
           "sync": [
             "vendors-node_modules_react-native_Libraries_ReactNative_RendererProxy_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-modules-05a9fc.chunk.bundle"
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-packag-437f4a.chunk.bundle"
           ]
         },
         "css": {
@@ -604,8 +639,8 @@
     {
       "id": "learning:react-native/Libraries/ReactPrivate/ReactNativePrivateInitializeCore",
       "name": "react-native/Libraries/ReactPrivate/ReactNativePrivateInitializeCore",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
@@ -615,15 +650,15 @@
             "node_modules_react-native_normalize-colors_index_js.chunk.bundle",
             "node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
             "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInter-e4d65b.chunk.bundle"
+            "packages_auth_node_modules_react_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInte-83cc1b.chunk.bundle"
           ],
           "sync": [
             "vendors-node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateIniti-082319.chunk.bundle"
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInit-fb7f56.chunk.bundle"
           ]
         },
         "css": {
@@ -635,8 +670,8 @@
     {
       "id": "learning:react-native/Libraries/ReactPrivate/ReactNativePrivateInterface",
       "name": "react-native/Libraries/ReactPrivate/ReactNativePrivateInterface",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
@@ -647,16 +682,16 @@
             "node_modules_react-native_normalize-colors_index_js.chunk.bundle",
             "node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
             "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_Alert_Alert_js-modules_auth_node_mod-36ee46.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateIniti-082319.chunk.bundle"
+            "packages_auth_node_modules_react_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_Alert_Alert_js-packages_auth_node_m-73368f.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInit-fb7f56.chunk.bundle"
           ],
           "sync": [
             "vendors-node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInterface_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInter-e4d65b.chunk.bundle"
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInte-83cc1b.chunk.bundle"
           ]
         },
         "css": {
@@ -668,8 +703,8 @@
     {
       "id": "learning:react-native/Libraries/StyleSheet/processColor",
       "name": "react-native/Libraries/StyleSheet/processColor",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
@@ -691,26 +726,26 @@
             "node_modules_react-native_Libraries_NativeComponent_ViewConfigIgnore_js-node_modules_invarian-a9f2b2.chunk.bundle",
             "node_modules_react-native_Libraries_Utilities_Platform_ios_js-node_modules_invariant_browser_-c13b524.chunk.bundle",
             "node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInter-e4d65b.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_Alert_Alert_js-modules_auth_node_mod-36ee46.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateIniti-082319.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-modules-05a9fc.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
+            "packages_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "packages_auth_node_modules_react_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInte-83cc1b.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_Alert_Alert_js-packages_auth_node_m-73368f.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInit-fb7f56.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-packag-437f4a.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
           ],
           "sync": [
             "node_modules_react-native_Libraries_StyleSheet_normalizeColor_js-node_modules_invariant_browser_js.chunk.bundle",
             "node_modules_react-native_Libraries_StyleSheet_processColorArray_js-node_modules_invariant_br-ec5dbe.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_Libraries_StyleSheet_normalizeColor_js-modules_auth_no-52d19c.chunk.bundle",
-            "modules_auth_node_modules_react-native_Libraries_StyleSheet_processColorArray_js-modules_auth-86c03b.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle"
+            "packages_auth_node_modules_react-native_Libraries_StyleSheet_normalizeColor_js-packages_auth_-550468.chunk.bundle",
+            "packages_auth_node_modules_react-native_Libraries_StyleSheet_processColorArray_js-packages_au-77bbce.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegi-58d039.chunk.bundle"
           ]
         },
         "css": {
@@ -722,8 +757,8 @@
     {
       "id": "learning:react-native/Libraries/StyleSheet/processColorArray",
       "name": "react-native/Libraries/StyleSheet/processColorArray",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
@@ -744,24 +779,24 @@
             "node_modules_react-native_Libraries_NativeComponent_ViewConfigIgnore_js-node_modules_invarian-a9f2b2.chunk.bundle",
             "node_modules_react-native_Libraries_Utilities_Platform_ios_js-node_modules_invariant_browser_-c13b524.chunk.bundle",
             "node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInter-e4d65b.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_Alert_Alert_js-modules_auth_node_mod-36ee46.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateIniti-082319.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-modules-05a9fc.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
+            "packages_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "packages_auth_node_modules_react_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInte-83cc1b.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_Alert_Alert_js-packages_auth_node_m-73368f.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInit-fb7f56.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-packag-437f4a.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
           ],
           "sync": [
             "node_modules_react-native_Libraries_StyleSheet_processColorArray_js-node_modules_invariant_br-ec5dbe.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_getNativeComponentAttributes_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_Libraries_StyleSheet_processColorArray_js-modules_auth-86c03b.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle"
+            "packages_auth_node_modules_react-native_Libraries_StyleSheet_processColorArray_js-packages_au-77bbce.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegi-58d039.chunk.bundle"
           ]
         },
         "css": {
@@ -773,8 +808,8 @@
     {
       "id": "learning:react-native/Libraries/Utilities/codegenNativeCommands",
       "name": "react-native/Libraries/Utilities/codegenNativeCommands",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
@@ -814,8 +849,8 @@
     {
       "id": "learning:react-native/Libraries/Utilities/codegenNativeComponent",
       "name": "react-native/Libraries/Utilities/codegenNativeComponent",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
@@ -850,8 +885,8 @@
     {
       "id": "learning:react-native/src/private/featureflags/ReactNativeFeatureFlags",
       "name": "react-native/src/private/featureflags/ReactNativeFeatureFlags",
-      "version": "0.76.3",
-      "requiredVersion": "^0.76.3",
+      "version": "0.76.5",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
@@ -871,28 +906,28 @@
             "vendors-node_modules_react-native_Libraries_ReactNative_RendererProxy_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Alert_Alert_js-node_modules_react-native_Librarie-e805ee.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInter-e4d65b.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateIniti-082319.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-modules-05a9fc.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_Alert_Alert_js-modules_auth_node_mod-36ee46.chunk.bundle"
+            "packages_auth_node_modules_react_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInte-83cc1b.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInit-fb7f56.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-packag-437f4a.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_Alert_Alert_js-packages_auth_node_m-73368f.chunk.bundle"
           ],
           "sync": [
             "node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js-node_modules_in-372c9f.chunk.bundle",
             "vendors-node_modules_react-native_index_js.chunk.bundle",
             "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js-node_mo-4eae63.chunk.bundle",
-            "modules_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js-mo-564378.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_Alert_Alert_js-modules_auth_node_mod-36ee46.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInter-e4d65b.chunk.bundle"
+            "packages_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js-p-98b490.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_Alert_Alert_js-packages_auth_node_m-73368f.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInte-83cc1b.chunk.bundle"
           ]
         },
         "css": {
@@ -904,9 +939,9 @@
     {
       "id": "learning:react-native",
       "name": "react-native",
-      "version": "0.76.3",
+      "version": "0.76.5",
       "singleton": true,
-      "requiredVersion": "^0.76.3",
+      "requiredVersion": "^0.76.5",
       "assets": {
         "js": {
           "async": [
@@ -923,18 +958,18 @@
             "node_modules_react-native_Libraries_NativeComponent_ViewConfigIgnore_js-node_modules_invarian-a9f2b2.chunk.bundle",
             "node_modules_react-native_Libraries_Utilities_Platform_ios_js-node_modules_invariant_browser_-c13b524.chunk.bundle",
             "node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInter-e4d65b.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateIniti-082319.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
+            "packages_auth_node_modules_react_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInte-83cc1b.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInit-fb7f56.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
           ],
           "sync": [
             "vendors-node_modules_react-native_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_index_js.chunk.bundle"
+            "vendors-packages_auth_node_modules_react-native_index_js.chunk.bundle"
           ]
         },
         "css": {
@@ -946,9 +981,9 @@
     {
       "id": "learning:react-redux",
       "name": "react-redux",
-      "version": "9.1.2",
+      "version": "9.2.0",
       "singleton": true,
-      "requiredVersion": "^9.1.2",
+      "requiredVersion": "^9.2.0",
       "assets": {
         "js": {
           "async": [
@@ -975,7 +1010,7 @@
           "async": [],
           "sync": [
             "node_modules_react_index_js.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle"
+            "packages_auth_node_modules_react_index_js.chunk.bundle"
           ]
         },
         "css": {
@@ -1002,7 +1037,7 @@
             "vendors-node_modules_react-navigation_native-stack_lib_commonjs_index_js.chunk.bundle",
             "vendors-node_modules_reduxjs_toolkit_dist_cjs_index_js.chunk.bundle",
             "vendors-node_modules_react-redux_dist_react-redux_legacy-esm_js.chunk.bundle",
-            "modules_auth_src_index_tsx.chunk.bundle",
+            "packages_auth_src_index_tsx.chunk.bundle",
             "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle",
             "node_modules_react-native-safe-area-context_src_index_tsx-_7a171.chunk.bundle",
             "vendors-node_modules_react-navigation_elements_lib_commonjs_index_js.chunk.bundle",
@@ -1010,13 +1045,14 @@
             "vendors-node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
             "node_modules_react-native_Libraries_Utilities_Platform_ios_js-node_modules_invariant_browser_-c13b520.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-modules-05a9fc.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_Alert_Alert_js-modules_auth_node_mod-36ee46.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_index_js.chunk.bundle",
-            "modules_auth_node_modules_react_index_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_reduxjs_toolkit_dist_cjs_index_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_NativeComponent_NativeComponentRegi-58d039.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactNative_RendererProxy_js-packag-437f4a.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_Alert_Alert_js-packages_auth_node_m-73368f.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_index_js.chunk.bundle",
+            "packages_auth_node_modules_react_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native-async-storage_async-storage_src_index_ts-_c1091.chunk.bundle",
+            "vendors-packages_auth_node_modules_reduxjs_toolkit_dist_cjs_index_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_getNativeComponentAttributes_js.chunk.bundle",
             "node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js-_d2991.chunk.bundle",
             "node_modules_react-native_Libraries_NativeComponent_ViewConfigIgnore_js-node_modules_invarian-a9f2b2.chunk.bundle",
@@ -1029,19 +1065,19 @@
             "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
             "node_modules_react-native_Libraries_Utilities_Platform_ios_js-node_modules_invariant_browser_-c13b525.chunk.bundle",
             "node_modules_react-native_normalize-colors_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInter-e4d65b.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateIniti-082319.chunk.bundle",
-            "vendors-modules_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "packages_auth_node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInte-83cc1b.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInit-fb7f56.chunk.bundle",
+            "vendors-packages_auth_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
             "node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
             "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
             "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js-node_mo-4eae63.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInterface_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Alert_Alert_js-node_modules_react-native_Librarie-e805ee.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
-            "modules_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
+            "packages_auth_node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle"
           ]
         },
         "css": {
